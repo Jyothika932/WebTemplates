@@ -1,0 +1,490 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  width: 100%;
+}
+body{
+  max-width: 1600px;
+  margin: auto;
+}
+#nav {
+  background-image: url(../Images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.bg{
+    background: rgb(0, 0, 0, 0.5);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#navMenu img {
+  max-width: 50px;
+}
+#banner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+#banner h1 {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Brush Script MT;
+  padding: 50px 0 30px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: italic;
+  padding: 20px;
+}
+#banner p {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+#btn1 {
+  border: rgb(9, 144, 175);
+  background: rgb(9, 144, 175);
+  color: white p;
+}
+
+#btn2 {
+  background: none;
+  border-color: rgb(9, 144, 175);
+  color: white;
+}
+#button button {
+  padding: 10px 20px;
+}
+#button {
+  display: flex;
+  gap: 20px;
+}
+
+
+#about h2 {
+  text-align: center;
+  padding: 30px 0 20px;
+  text-transform: uppercase;
+}
+
+.tagLineForH2 {
+  text-align: center;
+  padding: 20px;
+}
+
+#aboutCon {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 0 10px;
+  text-align: left;
+}
+
+.aboutDesc {
+  width: calc(50% - 1 * 20px / 2);
+  text-align: left;
+}
+
+.aboutDesc p {
+  text-align: left;
+  font-size: 18px;
+}
+
+#aboutDescCon {
+  margin: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+#btn3 {
+  text-align: left;
+  margin: 40px;
+}
+
+.serviceBlockImg {
+  width: 50px;
+}
+
+#service {
+  
+  background-color: #eee;
+}
+
+#service h2 {
+  text-align: center;
+  padding: 30px 0 20px;
+  text-transform: uppercase;
+  margin: 40px 0 0;
+}
+
+#serviceBlockCon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.serviceBlock {
+  width: calc(33.33% - 2 * 20px / 3);
+}
+
+.serviceBlockInfo {
+  display: flex;
+  gap: 20px;
+}
+
+#feature {
+  margin: 20px;
+}
+#feature h2 {
+  text-align: center;
+  padding: 30px 0 20px;
+  text-transform: uppercase;
+}
+
+#featureCon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}   
+.featureBlock img {
+  padding: 0 0 20px;
+  width: 50px;
+}
+
+.featureBlock {
+  width: calc(50% - 1 * 20px / 2);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.role {
+  font-size: 16px;
+  font-weight: bold;
+}
+#ban1Con{
+    min-height: 350px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+#banner1 {
+  background-image: url(../Images/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#banner1 p {
+  font-size: 18px;
+  padding: 10px 0;
+  width: 75%;
+}
+#banner1 button{
+    background: none;
+    padding: 10px 20px;
+    color: white;
+    border:1px solid #eee;
+}
+#team {
+  text-align: center;
+   margin: 20px;
+}
+#teamCon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.teamBlock {
+  width: calc(25% - 3 * 20px / 4);
+  box-sizing: border-box;
+}
+
+#teamBlock img {
+  width: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0 20px;
+}
+
+#contactInfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 30px 20px;
+}
+.contactDesc {
+  display: flex;
+  padding:  20px;
+}
+
+#form {
+  width: 100%;
+}
+
+.fornRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#contactCon {
+  width: 350px;
+}
+#form {
+  width: calc(100% - 370px);
+  padding: 40px 20px;
+}
+.icon {
+  width: 30px;
+  align-items: center;
+}
+.formRow1 {
+  width: 100%;
+  padding: 10px 0;
+}
+
+#formBtn button {
+  padding: 10px 20px;
+  align-items: center;
+  background-color: rgb(9, 144, 175);
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+#footerInfo {
+  display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+  gap: 20px;
+   background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footerCon {
+  width: calc(25% - 3 * 20px / 4);
+}
+.footerBlock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.info h4 {
+  padding: 0 0 10px;
+  font-weight: bold;
+}
+
+#followImg img,
+#arrow {
+  width: 20px;
+}
+
+#arrowup img {
+  width: 30px;
+  align-items: end;
+}
+
+@media screen and (max-width: 767px) {
+  .serviceBlock,
+  .teamBlock,
+  .footerCon {
+    width: calc(50% - 1 * 20px / 2);
+    box-sizing: border-box;
+  }
+  #banner p {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3,
+  .aboutDesc p {
+    font-size: 15px;
+  }
+  #banner h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutDesc,
+  .serviceBlock,
+  .featureBlock,
+  .teamBlock,
+  .footerCon {
+    width: 100%;
+  }
+  #contactInfo{
+    flex-direction: column;
+  }
+  #formBtn button {
+    padding: 10px 20px;
+  }
+  #form {
+  width: 100%;
+  padding: 0;
+}
+#contactCon {
+  width: 100%;
+}
+}
